@@ -1,0 +1,4 @@
+import { getCatalog } from '@/lib/store-api';
+import { CategoryCard } from '@/components/category-card';
+export const metadata = { title: 'Explore categories' };
+export default async function Categories() { const { categories, error } = await getCatalog(); return <div className="container page-section"><div className="page-heading"><span className="eyebrow">YOUR WORLD, ONE FIND AT A TIME</span><h1>A little something<br />for <em>every day.</em></h1><p>Pick a category. Follow your curiosity.</p></div>{error && <p role="alert" className="notice error-notice">{error}</p>}<div className="all-category-grid">{categories.map(c => <CategoryCard key={c.id} category={c} />)}</div>{!categories.length && !error && <p className="empty-inline">Categories will appear as the collection grows.</p>}</div>; }

@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Legal({ title, children }: { title: string; children: React.ReactNode }) { return <article className="container legal"><Link className="legal-back" href="/">← Back to DoorKart</Link><br /><span className="eyebrow">DOORKART · LEGAL</span><h1>{title}</h1><p className="draft"><strong>Draft — pending business review.</strong> Operator details, contact information, and final commerce policies must be completed before accepting public orders.</p>{children}</article>; }

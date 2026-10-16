@@ -1,0 +1,1 @@
+export default function Loading() { return <div className="container page-section" role="status"><div className="skeleton-heading" /><div className="product-grid">{[1,2,3,4].map(n => <div className="skeleton-card" key={n}><div /><span /><span /></div>)}</div><span className="sr-only">Loading DoorKart…</span></div>; }
