@@ -26,9 +26,9 @@ export function Checkout({ demo }: { demo: boolean }) {
   }, []);
   useEffect(() => {
     if (demo) return;
-    const controller = new AbortController();
-    storeRequest<DeliveryArea[]>('/delivery-areas', { signal: controller.signal }).then(data => { if (!controller.signal.aborted) setAreas(data); }).catch(e => { if (!controller.signal.aborted) setError(e.message); }).finally(() => { if (!controller.signal.aborted) setLoading(false); });
-    return () => controller.abort();
+    let cancelled = false;
+    storeRequest<DeliveryArea[]>('/delivery-areas').then(data => { if (!cancelled) setAreas(data); }).catch(e => { if (!cancelled) setError(e.message); }).finally(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
   }, [demo, retry]);
   const area = areas.find(a => a.id === areaId);
   const subtotal = lines.reduce((n, l) => n + l.quantity * l.product.sellingPricePaise, 0);

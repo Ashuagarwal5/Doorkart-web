@@ -28,9 +28,9 @@ export function CatalogBrowser({ catalog, category }: { catalog: Catalog; catego
   const queryString = query.toString();
   useEffect(() => {
     if (catalog.demo) return;
-    const abort = new AbortController();
-    storeRequest<ProductPage>(`/products?${queryString}`, { signal: abort.signal }).then(data => { if (!abort.signal.aborted) setResult(data); }).catch(e => { if (!abort.signal.aborted) setError(e.message); }).finally(() => { if (!abort.signal.aborted) setLoading(false); });
-    return () => abort.abort();
+    let cancelled = false;
+    storeRequest<ProductPage>(`/products?${queryString}`).then(data => { if (!cancelled) setResult(data); }).catch(e => { if (!cancelled) setError(e.message); }).finally(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
   }, [catalog.demo, queryString, retry]);
   let items = result?.items || [];
   let total = result?.pagination.total || 0;

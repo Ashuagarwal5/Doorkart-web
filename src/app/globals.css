@@ -18,6 +18,7 @@ html {
 }
 body {
   margin: 0;
+  font-size: 16px;
   background: var(--paper);
   color: var(--navy);
   font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +89,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  font-size: 10px;
+  font-size: 15px;
 }
 .announcement a {
   color: #ffb473;
@@ -143,7 +144,7 @@ img {
 .desktop-nav {
   display: flex;
   gap: 32px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .desktop-nav a {
   position: relative;
@@ -189,7 +190,7 @@ img {
   border-radius: 12px;
   background: var(--orange);
   color: white;
-  font-size: 9px;
+  font-size: 14px;
   display: grid;
   place-items: center;
   border: 2px solid var(--paper);
@@ -215,13 +216,13 @@ img {
   border: 0;
   background: transparent;
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  font-size: 9px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.7px;
   line-height: 1.8;
@@ -263,7 +264,7 @@ h2 em,
   border-radius: 7px;
   background: var(--blue);
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   transition: 0.2s;
 }
@@ -286,7 +287,7 @@ h2 em,
 .button.small {
   min-height: 38px;
   padding: 9px 14px;
-  font-size: 11px;
+  font-size: 14px;
   gap: 10px;
 }
 .full-width {
@@ -297,7 +298,7 @@ h2 em,
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
 }
 .hero {
@@ -325,7 +326,7 @@ h2 em,
 .hero-copy > p {
   max-width: 410px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.9;
 }
 .hero-actions {
@@ -339,7 +340,7 @@ h2 em,
   align-items: center;
   gap: 12px;
   margin-top: 34px;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 600;
 }
 .hero-footnote > span {
@@ -355,7 +356,7 @@ h2 em,
   display: block;
   margin-top: 5px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 14px;
   font-weight: 400;
 }
 .hero-visual {
@@ -411,7 +412,7 @@ h2 em,
   left: 25px;
   bottom: 27px;
   color: white;
-  font-size: 8px;
+  font-size: 14px;
   line-height: 2;
   letter-spacing: 1.4px;
 }
@@ -452,7 +453,7 @@ h2 em,
   border-radius: 10px;
   background: #ffffffed;
   box-shadow: 0 12px 35px #08234c0c;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   animation: float 7s ease-in-out infinite;
 }
@@ -460,7 +461,7 @@ h2 em,
   display: block;
   margin-top: 5px;
   color: var(--muted);
-  font-size: 8px;
+  font-size: 14px;
   font-weight: 400;
 }
 .float-top {
@@ -494,7 +495,7 @@ h2 em,
   right: 0;
   text-align: center;
   color: #8b9297;
-  font-size: 7px;
+  font-size: 14px;
   letter-spacing: 1.5px;
 }
 .brand-strip {
@@ -513,7 +514,7 @@ h2 em,
   display: flex;
   align-items: center;
   gap: 28px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .brand-strip i {
   font-style: normal;
@@ -564,13 +565,13 @@ h2 em,
 }
 .category-card h3 {
   margin: 0;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
 }
 .category-card p {
   margin: 6px 0 0;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.7;
 }
 .featured-section {
@@ -579,7 +580,7 @@ h2 em,
 .sample-label {
   margin: -12px 0 23px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 14px;
   letter-spacing: 0.5px;
 }
 .product-grid {
@@ -616,7 +617,7 @@ h2 em,
   border-radius: 4px;
   background: #fff0df;
   color: #ad591f;
-  font-size: 9px;
+  font-size: 14px;
 }
 .tag.blue {
   background: #f4f8ff;
@@ -648,7 +649,7 @@ h2 em,
   padding-top: 16px;
 }
 .product-category {
-  font-size: 9px;
+  font-size: 14px;
   letter-spacing: 0.8px;
   color: var(--muted);
   text-transform: uppercase;
@@ -656,7 +657,7 @@ h2 em,
 .product-info h3 {
   min-height: 39px;
   margin: 7px 0 11px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -671,12 +672,12 @@ h2 em,
   gap: 8px;
   flex-wrap: wrap;
   align-items: baseline;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 .price del {
   color: #8a929c;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
 }
 .add-button {
@@ -716,7 +717,7 @@ h2 em,
 }
 .editorial-copy p {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 24px;
 }
 .editorial-image {
@@ -762,12 +763,12 @@ h2 em,
   place-items: center;
 }
 .why-item h3 {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 .why-item p {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
 }
 .final-cta {
@@ -805,29 +806,29 @@ h2 em,
 .footer-brand p {
   margin: 17px 0 22px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.9;
 }
 .footer-signoff {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  font-size: 11px;
+  font-size: 15px;
 }
 .footer-grid h3 {
-  font-size: 11px;
+  font-size: 15px;
   margin: 9px 0 19px;
 }
 .footer-grid > div:not(:first-child) a {
   display: block;
   margin-bottom: 12px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 15px;
   line-height: 1.6;
 }
 .footer-grid > div:not(:first-child) p {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 15px;
   line-height: 1.8;
 }
 .footer-bottom {
@@ -837,7 +838,7 @@ h2 em,
   padding-block: 22px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 9px;
+  font-size: 14px;
 }
 .toast-region {
   position: fixed;
@@ -869,7 +870,7 @@ h2 em,
 }
 .toast p {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 .page-section {
   min-height: 65vh;
@@ -887,7 +888,7 @@ h2 em,
 }
 .page-heading > p {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.9;
 }
 .notice {
@@ -896,7 +897,7 @@ h2 em,
   border: 1px solid #e8dccb;
   border-radius: 8px;
   background: #fff5e9;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 .error-notice {
@@ -907,7 +908,7 @@ h2 em,
 .empty-inline {
   padding: 35px 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
 }
 .all-category-grid {
   display: grid;
@@ -921,7 +922,7 @@ h2 em,
   font-size: 18px;
 }
 .all-category-grid p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .catalog-toolbar {
   display: flex;
@@ -948,21 +949,21 @@ h2 em,
   padding: 8px 0;
   border: 0;
   background: transparent;
-  font-size: 12px;
+  font-size: 14px;
 }
 .text-button {
   padding: 8px;
   border: 0;
   background: transparent;
   color: var(--blue);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
 }
 .sort-label {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 12px;
+  font-size: 14px;
   flex: none;
 }
 .sort-label select {
@@ -980,7 +981,7 @@ h2 em,
 }
 .catalog-sidebar h2 {
   margin: 8px 0 24px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .category-filters {
   display: flex;
@@ -995,7 +996,7 @@ h2 em,
   padding: 11px;
   border-radius: 6px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 14px;
 }
 .category-filters a:hover {
   background: #edf1f5;
@@ -1007,14 +1008,14 @@ h2 em,
 }
 .catalog-sidebar h3 {
   margin: 29px 0 17px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .check-label {
   display: flex;
   align-items: center;
   gap: 9px;
   margin-bottom: 14px;
-  font-size: 11px;
+  font-size: 14px;
 }
 input[type="checkbox"] {
   width: 15px;
@@ -1024,7 +1025,7 @@ input[type="checkbox"] {
 .result-count {
   margin: 7px 0 24px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 14px;
 }
 .listing-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1049,7 +1050,7 @@ input[type="checkbox"] {
   max-width: 490px;
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.9;
 }
 .big-empty {
@@ -1069,7 +1070,7 @@ input[type="checkbox"] {
   justify-content: center;
   gap: 18px;
   padding-top: 42px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .breadcrumbs {
   display: flex;
@@ -1077,7 +1078,7 @@ input[type="checkbox"] {
   gap: 11px;
   margin-bottom: 33px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
 }
 .detail-grid {
   display: grid;
@@ -1115,7 +1116,7 @@ input[type="checkbox"] {
   border-radius: 6px;
   overflow: hidden;
   background: #eee;
-  font-size: 10px;
+  font-size: 14px;
 }
 .thumbnails button.selected {
   border: 2px solid var(--blue);
@@ -1154,7 +1155,7 @@ input[type="checkbox"] {
   border-radius: 4px;
   background: #edf3eb;
   color: #457551;
-  font-size: 10px;
+  font-size: 14px;
 }
 .stock-label.sold-out {
   background: #eeeae7;
@@ -1163,7 +1164,7 @@ input[type="checkbox"] {
 .description {
   margin: 23px 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.95;
   white-space: pre-line;
 }
@@ -1196,7 +1197,7 @@ input[type="checkbox"] {
 .quantity-control span {
   min-width: 30px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 .in-bag-link {
   display: flex;
@@ -1204,7 +1205,7 @@ input[type="checkbox"] {
   gap: 9px;
   margin-top: 16px;
   color: var(--blue);
-  font-size: 12px;
+  font-size: 14px;
 }
 .detail-assurance {
   display: flex;
@@ -1213,19 +1214,19 @@ input[type="checkbox"] {
   margin-top: 29px;
   padding: 24px 0;
   border-block: 1px solid var(--line);
-  font-size: 12px;
+  font-size: 14px;
 }
 .detail-assurance small {
   display: block;
   margin-top: 5px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.7;
 }
 .sku {
   margin-top: 19px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
 }
 .cart-layout {
   display: grid;
@@ -1266,7 +1267,7 @@ input[type="checkbox"] {
 .cart-line-info p {
   margin-bottom: 14px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
 }
 .cart-line-info .quantity-control {
   height: 34px;
@@ -1283,7 +1284,7 @@ input[type="checkbox"] {
   flex: none;
 }
 .cart-line-end strong {
-  font-size: 14px;
+  font-size: 16px;
 }
 .remove-button {
   display: flex;
@@ -1293,7 +1294,7 @@ input[type="checkbox"] {
   border: 0;
   background: transparent;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
 }
 .order-summary {
   position: sticky;
@@ -1313,7 +1314,7 @@ input[type="checkbox"] {
   align-items: start;
   gap: 18px;
   padding-block: 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.7;
 }
 .summary-row > span:first-child {
@@ -1326,7 +1327,7 @@ input[type="checkbox"] {
   margin-top: 14px;
   padding-block: 20px;
   border-top: 1px solid #d8dfe8;
-  font-size: 14px;
+  font-size: 16px;
 }
 .summary-row.total > span {
   color: var(--navy);
@@ -1334,7 +1335,7 @@ input[type="checkbox"] {
 .summary-note {
   margin-bottom: 21px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.9;
 }
 .continue-link {
@@ -1342,7 +1343,7 @@ input[type="checkbox"] {
   margin-top: 19px;
   text-align: center;
   text-decoration: underline;
-  font-size: 11px;
+  font-size: 14px;
 }
 .cod-note {
   display: flex;
@@ -1352,7 +1353,7 @@ input[type="checkbox"] {
   margin: 21px 0 0;
   color: var(--muted);
   text-align: center;
-  font-size: 9px;
+  font-size: 14px;
   line-height: 1.8;
 }
 .checkout-form fieldset {
@@ -1376,7 +1377,7 @@ input[type="checkbox"] {
 }
 .form-grid label,
 .order-lookup label {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
 }
 .form-grid label > span {
@@ -1395,7 +1396,7 @@ input[type="checkbox"] {
   border-radius: 6px;
   background: transparent;
   color: var(--navy);
-  font-size: 12px;
+  font-size: 14px;
 }
 .span-two {
   grid-column: 1/-1;
@@ -1414,12 +1415,12 @@ input[type="checkbox"] {
   flex: 1;
 }
 .payment-option strong {
-  font-size: 12px;
+  font-size: 14px;
 }
 .payment-option p {
   margin: 5px 0 0;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.7;
 }
 .consent {
@@ -1428,7 +1429,7 @@ input[type="checkbox"] {
   gap: 11px;
   margin-bottom: 24px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.9;
 }
 .consent input {
@@ -1473,7 +1474,7 @@ input[type="checkbox"] {
 }
 .saved-orders > p {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 14px;
 }
 .saved-orders button {
   width: 100%;
@@ -1485,7 +1486,7 @@ input[type="checkbox"] {
   border: 1px solid #dfe6ef;
   border-radius: 6px;
   background: #edf2f8;
-  font-size: 11px;
+  font-size: 14px;
 }
 .saved-orders button span {
   flex: 1;
@@ -1514,11 +1515,11 @@ input[type="checkbox"] {
 }
 .delivery-address h3,
 .tracking-title {
-  font-size: 12px;
+  font-size: 14px;
 }
 .delivery-address p {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
 }
 .tracking-title {
@@ -1545,18 +1546,18 @@ input[type="checkbox"] {
 .order-timeline strong {
   display: block;
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: 14px;
 }
 .order-timeline small {
   display: block;
   margin-top: 6px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 14px;
 }
 .order-timeline p {
   margin: 7px 0 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 14px;
 }
 .receipt {
   max-width: 760px;
@@ -1583,14 +1584,14 @@ input[type="checkbox"] {
 }
 .receipt-heading p {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
 }
 .receipt-heading > strong {
   display: inline-block;
   padding: 9px 14px;
   border-radius: 5px;
   background: #edf1f8;
-  font-size: 12px;
+  font-size: 14px;
 }
 .receipt-token {
   margin-block: 27px;
@@ -1603,7 +1604,7 @@ input[type="checkbox"] {
 .receipt-token p {
   margin-block: 14px 21px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
 }
 .legal {
@@ -1613,7 +1614,7 @@ input[type="checkbox"] {
 .legal-back {
   display: inline-block;
   margin-bottom: 33px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .legal h1 {
   margin: 19px 0 28px;
@@ -1627,7 +1628,7 @@ input[type="checkbox"] {
 }
 .legal p {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.95;
 }
 .legal a {
@@ -1645,7 +1646,7 @@ input[type="checkbox"] {
   padding: 55px 20px;
   color: var(--muted);
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
 }
 .skeleton-card > div {
   aspect-ratio: 1/1.08;
@@ -1735,7 +1736,7 @@ input[type="checkbox"] {
   .announcement {
     padding: 8px 14px;
     text-align: center;
-    font-size: 9px;
+    font-size: 14px;
     line-height: 1.5;
   }
   .announcement a {
@@ -1777,7 +1778,7 @@ input[type="checkbox"] {
     justify-content: space-between;
     padding: 17px 2px;
     border-top: 1px solid var(--line);
-    font-size: 14px;
+    font-size: 16px;
   }
   .search-panel form {
     padding-block: 11px;
@@ -1799,7 +1800,7 @@ input[type="checkbox"] {
     font-size: 0.77em;
   }
   .hero-copy > p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .hero-visual {
     width: min(480px, 100%);
@@ -1808,10 +1809,10 @@ input[type="checkbox"] {
   }
   .float-card {
     padding: 10px;
-    font-size: 9px;
+    font-size: 14px;
   }
   .float-card small {
-    font-size: 7px;
+    font-size: 14px;
   }
   .float-icon {
     width: 34px;
@@ -1827,7 +1828,7 @@ input[type="checkbox"] {
     padding: 15px 20px;
   }
   .brand-strip span {
-    font-size: 11px;
+    font-size: 14px;
   }
   .section {
     padding-block: 54px;
@@ -1854,17 +1855,17 @@ input[type="checkbox"] {
     height: 145px;
   }
   .category-card h3 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .category-card p {
-    font-size: 9px;
+    font-size: 14px;
   }
   .product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 29px 15px;
   }
   .product-info h3 {
-    font-size: 12px;
+    font-size: 14px;
     min-height: 36px;
   }
   .product-arrow {
@@ -1916,7 +1917,7 @@ input[type="checkbox"] {
     grid-column: 1/-1;
   }
   .footer-bottom {
-    font-size: 8px;
+    font-size: 14px;
     line-height: 1.7;
   }
   .page-section {
@@ -1932,7 +1933,7 @@ input[type="checkbox"] {
   }
   .sort-label {
     align-self: flex-end;
-    font-size: 11px;
+    font-size: 14px;
   }
   .catalog-layout {
     display: block;
@@ -1974,10 +1975,10 @@ input[type="checkbox"] {
     height: 195px;
   }
   .all-category-grid h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .all-category-grid p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .detail-grid,
   .cart-layout,
@@ -2000,10 +2001,10 @@ input[type="checkbox"] {
     height: 108px;
   }
   .cart-line-info h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .cart-line-info p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .remove-button span {
     display: none;
@@ -2037,7 +2038,7 @@ input[type="checkbox"] {
     font-size: 35px;
   }
   .legal p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .toast-region {
     bottom: 18px;
@@ -2062,14 +2063,14 @@ input[type="checkbox"] {
   }
   .hero-actions .button {
     padding-inline: 12px;
-    font-size: 10px;
+    font-size: 14px;
   }
   .hero-visual {
     min-height: 405px;
   }
   .hero-photo-label {
     left: 17px;
-    font-size: 6px;
+    font-size: 14px;
   }
   .hero-photo-label b {
     font-size: 17px;
@@ -2087,10 +2088,10 @@ input[type="checkbox"] {
     gap: 27px 11px;
   }
   .product-info h3 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .price {
-    font-size: 12px;
+    font-size: 14px;
   }
   .add-button {
     width: 33px;

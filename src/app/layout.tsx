@@ -8,7 +8,9 @@ import './globals.css';
 export const metadata: Metadata = {
   title: { default: 'DoorKart — Open the door to more.', template: '%s | DoorKart' },
   description: 'Discover stationery, gifts, toys, sports, decoration and more at DoorKart. Thoughtful finds for your everyday.',
-  icons: { icon: '/icon.png', apple: '/assets/favicon-64.png' },
+  metadataBase: new URL(process.env.SITE_URL || 'http://localhost:3000'),
+  icons: { icon: [{ url: '/assets/favicon-64.png', type: 'image/png', sizes: '64x64' }], shortcut: '/assets/favicon-64.png', apple: '/assets/favicon-64.png' },
+  openGraph: { siteName: 'DoorKart', type: 'website', images: ['/assets/doorkart-logo.png'] },
 };
 async function StoreShell({ children }: { children: React.ReactNode }) {
   const { demo, categories, shop } = await getCatalog();
