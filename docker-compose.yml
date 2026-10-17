@@ -7,7 +7,7 @@ services:
         SITE_URL: ${SITE_URL:-https://doorkart.in}
     image: doorkart-web
     ports:
-      - "3000:3000"
+      - "3001:3001"
     environment:
       DOORKART_API_URL: ${DOORKART_API_URL:-https://api.doorkart.in/api/v1}
       SITE_URL: ${SITE_URL:-https://doorkart.in}
