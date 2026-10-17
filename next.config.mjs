@@ -4,6 +4,7 @@ const nextConfig = {
   experimental: {
     agentFeedback: true,
   },
+  output: "standalone",
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
